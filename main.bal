@@ -1,7 +1,7 @@
 import ballerina/http;
 import ballerina/lang.runtime;
 
-configurable string apiKey = "123456";
+// configurable string apiKey = "123456";
 
 public type ChatRequest record {|
     string chat_instance_id;
